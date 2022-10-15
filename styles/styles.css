@@ -30,6 +30,7 @@ button:hover {
   background-color: hsl(0, 0%, 50%);
 }
 .dropdown-options {
+  font-family: 'Sirin Stencil', cursive;
   display: none;
   position: absolute;
   overflow: auto;
