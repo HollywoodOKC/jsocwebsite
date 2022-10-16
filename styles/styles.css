@@ -9,11 +9,11 @@ body {
 #jsoc-title {
   font-family: 'Sirin Stencil', cursive;
   display: inline-block;
-  height: 46px;
-  width: 570px;
+  height: 60px;
+  width: 550px;
   text-align: center;
- margin-left: 18%;
-  font-size: 40px;
+ margin-left: 20%;
+  font-size: 50px;
 }
 .dropdown {
   display: inline-block;
@@ -65,5 +65,5 @@ iframe {
 .main-para {
   font-family: 'Sirin Stencil', cursive;
   text-align: center;
-  font-size: 50px;
+  font-size: 40px;
 }
