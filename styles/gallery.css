@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+
+
+
+body {
+  background-color: hsl(223.4, 23.9%, 38.6%);
+}
+#jsoc-title {
+  font-family: 'Sirin Stencil', cursive;
+  display: inline-block;
+  height: 70px;
+  width: 700px;
+  text-align: center;
+  margin-left: 16%;
+  font-size: 45px;
+  color: hsl(205, 0%, 100%);
+}
+.dropdown {
+  display: inline-block;
+  position: relative;
+}
+button {
+  border: none;
+  border-radius: 50%;
+  padding: 0px 0px;
+  font-size: 10px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: hsl(0, 0%, 50%);
+}
+.dropdown-options {
+  font-family: 'Sirin Stencil', cursive;
+  display: none;
+  position: absolute;
+  overflow: auto;
+  background-color: hsl(0, 0%, 50%);
+  border-radius: 5px;
+  box-shadow: 0px 10px 10px 0px hsla(0, 0%, 0%, 0.4);
+}
+.dropdown:hover .dropdown-options {
+  display: block;
+}
+.dropdown-options a {
+  display: block;
+  color: hsl(0, 0%, 0%);
+  padding: 5px;
+  text-decoration: none;
+  padding: 20px 40px;
+}
+.dropdown-options a:hover {
+  color: hsl(240, 55.6%, 8.8%);
+  background-color: hsl(0, 0%, 86.7%);
+  border-radius: 5px;
+}
+.logo {
+  display: block;
+  height: 100px;
+  width: 100px;
+}
