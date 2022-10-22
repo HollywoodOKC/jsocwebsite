@@ -12,7 +12,7 @@ body {
   height: 70px;
   width: 700px;
   text-align: center;
-  margin-left: 16%;
+  margin-left: 13%;
   font-size: 45px;
   color: hsl(205, 0%, 100%);
 }
@@ -58,4 +58,16 @@ button:hover {
   display: block;
   height: 100px;
   width: 100px;
+}
+.main-title {
+  font-size: 35px;
+  font-family: 'Sirin Stencil', cursive;
+  display: block;
+  text-align: center;
+}
+.para {
+  font-size: 25px;
+  font-family: 'Sirin Stencil', cursive;
+  display: block;
+  text-align: center;
 }
