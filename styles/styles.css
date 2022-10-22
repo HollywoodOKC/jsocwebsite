@@ -5,7 +5,7 @@
 
 
 body {
-  background-color: hsl(223.4, 23.9%, 38.6%);
+  background-color: hsl(0, 0%, 50%);
 }
 #jsoc-title {
   font-family: 'Sirin Stencil', cursive;
@@ -36,7 +36,7 @@ button:hover {
   display: none;
   position: absolute;
   overflow: auto;
-  background-color: hsl(0, 0%, 50%);
+  background-color: hsl(223.4, 23.9%, 38.6%);
   border-radius: 5px;
   box-shadow: 0px 10px 10px 0px hsla(0, 0%, 0%, 0.4);
 }
