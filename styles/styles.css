@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Sirin+Stencil&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Allerta+Stencil&display=swap');
 
 
 
@@ -75,4 +76,16 @@ hr {
   margin-top: 0;
   border-bottom: 1px solid hsl(24.5, 55%, 7.8%);
   box-shadow: 0 20px 20px -20px hsl(0, 0%, 20%);
+}
+#delta-logo, #cia-logo {
+  width: 45%;
+  height: 45%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+figcaption {
+  display: block;
+  text-align: center;
+  font-family: 'Allerta Stencil', sans-serif;
 }
