@@ -18,7 +18,7 @@ body {
 }
 .dropdown {
   display: inline-block;
-  position: relative;
+  position: fixed;
 }
 button {
   border: none;
