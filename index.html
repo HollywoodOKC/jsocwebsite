@@ -9,7 +9,7 @@
   <link href="styles/styles.css" type="text/css" rel="stylesheet">
 </head>
 
-<body>
+<body onload="timePassed">
   <header>
     <div class="dropdown">
       <button><img class="logo" src="images/JSOC Logo.png"></button>
@@ -27,6 +27,8 @@
     </div>
     <p id="jsoc-title">Joint Special Operations Command</p>
   </header>
+  <label for="clock">JSOC</label>
+  <p id="clock"></p>
   <hr>
   <main>
     <iframe src="https://www.youtube.com/embed/CXm4vjLbKXc" title="YouTube video player" frameborder="0"
@@ -36,26 +38,28 @@
     <p class="main-para">On 13th April 2020, JSOC came into being. With the idea that the MilSim would be a safe haven
       for like minded individuals, it went into full reruitment. JSOC is still a staple in the MilSim community and
       has been trailblazing since day 1, Welcome to JSOC. </p>
-      <br>
-      <figure>
-        <img src="images/1st SFOD-D logo.png" id="delta-logo" alt="Delta logo">
-        <figcaption>1st SFOD-D</figcaption>
-      </figure>
-      <p class="main-para">As the worlds premier counter-terrorism unit, 1st SFOD-D cuts no corners. This unit
-        is highly trainined in Direct Action, Counter-Terrorism, Unconventional Warfare, Urban Operations and many more.
-        This unit has a long and storied history of dangerous and often classified operations.
-      </p>
-      <br>
-      <hr>
-      <figure>
-        <img src="images/Seal_of_the_Central_Intelligence_Agency.png" id="cia-logo" alt="CIA logo">
-        <figcaption>Central Intelligence Agency</figcaption>
-      </figure>
-      <p class="main-para">The CIA serves as the national manager for the coordination of HUMINT activities across the U.S. intelligence community.
-        It is the only agency authorized by law to carry out and oversee covert action at the behest of the President. </p>
+    <br>
+    <figure>
+      <img src="images/1st SFOD-D logo.png" id="delta-logo" alt="Delta logo">
+      <figcaption>1st SFOD-D</figcaption>
+    </figure>
+    <p class="main-para">As the worlds premier counter-terrorism unit, 1st SFOD-D cuts no corners. This unit
+      is highly trainined in Direct Action, Counter-Terrorism, Unconventional Warfare, Urban Operations and many more.
+      This unit has a long and storied history of dangerous and often classified operations.
+    </p>
+    <br>
+    <hr>
+    <figure>
+      <img src="images/Seal_of_the_Central_Intelligence_Agency.png" id="cia-logo" alt="CIA logo">
+      <figcaption>Central Intelligence Agency</figcaption>
+    </figure>
+    <p class="main-para">The CIA serves as the national manager for the coordination of HUMINT activities across the
+      U.S. intelligence community.
+      It is the only agency authorized by law to carry out and oversee covert action at the behest of the President.
+    </p>
   </main>
 
-  <script src="" type="text/javascript"></script>
+  <script src="/scripts/index.js" type="text/javascript"></script>
 </body>
 
 
