@@ -1,6 +1,6 @@
 const foundingDate = new Date("13 April 2020");
 const todayDate = new Date();
-const millToDays = 1000*60*60*24;
+const millToDays = 1000 * 60 * 60 * 24;
 setInterval(todayDate, 1000);
 
 function daysToYears(numberOfDays) {
