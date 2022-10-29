@@ -14,4 +14,4 @@ function daysToYears(numberOfDays) {
 
 daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
 
-document.getElementById("clock").innerHTML = daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
+document.getElementById("timer").innerHTML = daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
