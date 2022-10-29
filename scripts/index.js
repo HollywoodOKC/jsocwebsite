@@ -12,6 +12,6 @@ function daysToYears(numberOfDays) {
   return `${years} years ${months} months & ${days} days`;
 }
 
-daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
+//daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
 
 document.getElementById("timer").innerHTML = daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
