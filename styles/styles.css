@@ -89,3 +89,9 @@ figcaption {
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
 }
+label, #clock {
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Sirin Stencil', cursive;
+}
