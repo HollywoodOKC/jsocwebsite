@@ -8,11 +8,11 @@ body {
 }
 #jsoc-title {
   font-family: 'Sirin Stencil', cursive;
-  display: inline-block;
-  height: 70px;
-  width: 700px;
+  display: block;
+  /*height: 70px;
+  width: 700px;*/
   text-align: center;
-  margin-left: 13%;
+  /*margin-left: 13%;*/
   font-size: 45px;
   color: hsl(205, 0%, 100%);
 }
