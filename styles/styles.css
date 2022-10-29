@@ -89,7 +89,7 @@ figcaption {
   text-align: center;
   font-family: 'Allerta Stencil', sans-serif;
 }
-label, #clock {
+label #clock {
   display: block;
   text-align: center;
   font-size: 45px;
