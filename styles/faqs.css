@@ -17,7 +17,7 @@ body {
   color: hsl(205, 0%, 100%);
 }
 .dropdown {
-  display: inline-block;
+  display: block;
   position: fixed;
 }
 button {
