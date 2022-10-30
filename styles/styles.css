@@ -11,10 +11,9 @@ body {
 #jsoc-title {
   font-family: 'Sirin Stencil', cursive;
   display: inline-block;
-  height: 70px;
-  width: 700px;
+  margin-top: 23px;
   text-align: center;
-  margin-left: 23%;
+  margin-left: 25%;
   font-size: 45px;
   color: hsl(205, 0%, 100%);
 }
