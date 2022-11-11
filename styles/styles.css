@@ -117,4 +117,12 @@ label {
   text-align: center;
   font-size: 45px;
   font-family: 'Sirin Stencil', cursive;
+  color: hsl(3, 63%, 37%);
+}
+#encrypt {
+  display: block;
+  text-align: center;
+  font-size: 45px;
+  font-family: 'Sirin Stencil', cursive;
+  color: hsl(137, 53%, 29%);
 }

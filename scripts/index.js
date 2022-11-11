@@ -12,3 +12,15 @@ function daysToYears(numberOfDays) {
 }
 
 document.getElementById("timer").innerHTML = daysToYears((Math.round((todayDate - foundingDate) / millToDays)));
+
+let percent = 0;
+let result;
+
+const myInterval = setInterval(function () {
+  percent += 10;
+  result += percent;
+  document.getElementById('encrypt').innerHTML = `Encrypting: ${percent}% complete`;
+  if (percent === 100) {
+    clearInterval(myInterval);
+  }
+}, 2000);
